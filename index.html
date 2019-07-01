@@ -15,15 +15,30 @@
     </head>
 
     <body>
+      <div id = "navbar">
+        <img src = "GKLogo.png"
+              style = "float:left;width:25px; height: 25px">
+        <div class="dropdown" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      </div>
       <div id = "container">
-        <div id = "Title">
+        <div id = "title">
           <center>
             <h1>Gialon Kasha</h1>
             <div id = "description">
               <h6><strong> Carnegie Mellon University (2018 - 2022)</strong></h6>
               <p>
-                B.S. in Mathematics,
-                <br>Concentration in Operations Research and Statistics
+                B.S. in Mathematics
               </p>
             </div>
             <strong>Contact:</strong> <a href="mailto:gkasha@cmu.edu">gkasha@cmu.edu</a>
@@ -31,5 +46,23 @@
           </center>
         </div>
       </div>
+        <script>
+          function myFunction(x) {
+            x.classList.toggle("change");
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          window.onclick = function(event) {
+            if (!event.target.matches('.dropdown')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+        </script>
     </body>
 </html>
