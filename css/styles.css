@@ -54,7 +54,7 @@ body {
 
 .bg-image {
   background-image: url('./PN_TDC_Party_cropped_2.png');
-  opacity: 0.5;
+  opacity: 0.3;
   filter: blur(0px);
   height: 100%;
   background-position: left;
