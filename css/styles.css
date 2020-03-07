@@ -99,6 +99,12 @@ body {
   text-align: center;
 }
 
+.description {
+  padding-top: 5%;
+  width: 50%;
+  font-size: 18px;
+}
+
 .bg-image {
   background-image: url('./PN_TDC_Party_cropped_2.png');
   opacity: 0.3;
