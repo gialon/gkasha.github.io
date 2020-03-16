@@ -58,9 +58,9 @@ hr {
 }
 
 img {
-  width: 30%;
+  width: 40%;
   border-radius: 5px;
-  float: right;
+  float: left;
   display: inline;
 }
 body {
