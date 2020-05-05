@@ -16,12 +16,7 @@
   padding-top:5%;
   background-color: white;
 }
-#main_content {
-  padding: 0% 0% 0%;
-  height: 100%;
-  width:100%;
-  font-size: 18px;
-}
+
 #clear {
     clear: both;
 }
@@ -29,9 +24,11 @@
 #coursework{
   padding-top: 5%;
 }
+
 #email {
   padding-top: 2.5%;
 }
+
 #description {
   width: 50%;
   font-size: 18px;
@@ -41,6 +38,13 @@
   width:10%;
   height:100%;
   padding: 0% 5% 0%;
+}
+
+#main_content {
+  padding: 0% 0% 0%;
+  height: 100%;
+  width:100%;
+  font-size: 18px;
 }
 
 #title {
@@ -66,7 +70,6 @@ hr {
 }
 
 img {
-  border-radius: 5px;
   display: inline;
 }
 body {
@@ -75,7 +78,8 @@ body {
 }
 
 span{
-  background-color: rgb(129, 207, 252);
+  background-color:#A0A0A0;
+  color:white;
 }
 
 .menubar {
@@ -83,7 +87,8 @@ span{
 }
 
 .a-links {
-  color: black;
+  background-color: #CC3F0C;
+  color: white;
   font-size: 18px;
   transition: all 100ms ease;
 }
@@ -196,26 +201,22 @@ span{
 
 /* unvisited link */
 a:link {
-  color: black;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 /* visited link */
 a:visited {
-  color: black;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 
 /* mouse over link */
 a:hover {
-  color: black;
   text-decoration: none;
   border-bottom: none;
 }
 
 /* selected link */
 a:active {
-  color: blue;
 }
