@@ -23,6 +23,7 @@
 
 #coursework{
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 #email {
@@ -78,8 +79,7 @@ body {
 }
 
 span{
-  background-color:#707070;
-  color:white;
+
 }
 
 .menubar {
@@ -87,8 +87,8 @@ span{
 }
 
 .a-links {
-  background-color: #CC3F0C;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 18px;
   transition: all 100ms ease;
 }
@@ -202,13 +202,13 @@ span{
 /* unvisited link */
 a:link {
   text-decoration: none;
-  border-bottom: 2px solid #CC3F0C;
+  border-bottom: 2px solid black;
 }
 
 /* visited link */
 a:visited {
   text-decoration: none;
-  border-bottom: 2px solid #CC3F0C;
+  border-bottom: 2px solid black;
 }
 
 /* mouse over link */
