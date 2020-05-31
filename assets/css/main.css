@@ -2795,6 +2795,16 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+/* Menubar */
+	#menubar {
+		top:0;
+		padding-bottom: 2%;
+		padding-top: 2%;
+		position:fixed;
+		background-color: white;
+		width: 100%;
+		z-index: 300;
+	}
 /* Footer */
 
 	#footer .icons {
@@ -2961,7 +2971,7 @@ input, select, textarea {
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 0em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
