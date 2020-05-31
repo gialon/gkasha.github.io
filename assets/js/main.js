@@ -85,14 +85,6 @@
 				$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 			});
 
-		});
-
-		$window.on('load', function () {
-			$window.triggerHandler('scroll');
-		});
-
-	}
-
 	// Main Sections: Two.
 
 	// Lightbox gallery.
