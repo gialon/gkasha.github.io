@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+body {
+    background-color: #FFEBE7; /*D4B2D8*/
+    font-family: 'Heebo', sans-serif;
+    margin-top:0;
+}
+
+#main {
+    align-content: center;
+    padding: 4% 30% 1.25%;
+    display:block;
+    left:0;
+}
+
+.topnav {
+    align-content: center;
+    position:fixed;
+    background-color: #FFEBE7;
+    overflow: hidden;
+    width:100%;
+    display:block;
+    padding: 2.5% 30% 1.5%;
+    word-spacing: 0.5em;
+    left:0;
+}
+
+/* Change the color of links on hover */
+.topnav a {
+    -moz-transition: color 0.2s ease-in-out, #000000, 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out, #000000, 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out, #000000, 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out, #000000, 0.2s ease-in-out;
+    border-bottom: dotted 1px;
+    color: #000000;
+    text-decoration: none;
+    text-align:center;
+  }
+  
+.topnav a:hover {
+    border-bottom-color: transparent;
+    color: #000000 !important;
+    text-decoration: none;
+}
+  /* Add a color to the active/current link */
+.topnav a.active {
+    color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
